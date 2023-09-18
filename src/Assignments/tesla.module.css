@@ -1,0 +1,121 @@
+*{
+    padding: 0px;
+    margin: 0px;
+  box-sizing: border-box;
+ 
+}
+.body{
+    height: 100vh;
+    width: 100%;
+    /* background-color: black; */
+     display: flex;
+     /* align-items: center; */
+     background-image: url(./images/wp9053024-tesla-4k-wallpapers.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     /* background-image: url(./wp8889601-tesla-4k-wallpapers.jpg); */
+}
+
+
+.body>#navbar1{
+    height: 60px;
+    width: 60%;
+    /* background-color: rgb(0, 236, 8); */
+}
+.body>#navbar2{
+    height: 60px;
+    width: 20%;
+    /* background-color: rgb(255, 0, 0); */
+}
+.body>#navbar1>ul>li>a{
+    
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    color: black;
+    
+}
+.body>#navbar1>ul>li{
+    list-style-type: none;
+    padding-right: 30px;
+   
+   
+}
+.body>#navbar1>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+   
+}
+
+/* nav bar 2  */
+.body>#navbar2>ul>li>a{
+    
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+   color: black;
+    
+}
+
+.body>#navbar2>ul>li{
+    list-style-type: none;
+    padding-right: 35px;
+   
+   
+}
+.body>#navbar2>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+   
+}
+
+/* logo */
+.body>#logo{
+    height: 60px;
+    width: 20%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body>#logo>svg{
+    height: 40px;
+    width: 50%;
+}
+#img2{
+    background-image: url(./images/wp10539222-tesla-x-2023-wallpapers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 110vh;
+    width: 100%;
+
+}
+#img3{
+    background-image: url(./images/wp8889601-tesla-4k-wallpapers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 110vh;
+    width: 100%;
+    
+}
+#img4{
+    background-image: url(./images/wp11929444-tesla-x-2023-wallpapers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 110vh;
+    width: 100%;
+
+}
+/* hover */
+.body>#navbar2>ul>li>a:hover{
+    color: rgb(109, 48, 1);
+   
+}
+.body>#navbar1>ul>li>a:hover{
+    color: rgb(109, 48, 1);
+   
+}

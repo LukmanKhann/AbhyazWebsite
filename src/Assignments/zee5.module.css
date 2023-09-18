@@ -1,0 +1,156 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.body{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+  
+}
+.body>#logo{  
+     height: 80px;
+    width: 10%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+
+}
+.body>#navbar{
+    height: 80px;
+    width: 30%;
+    background-color: rgb(0, 0, 0);
+}
+
+/* search bar */
+
+.body>#searchbar{
+    height: 80px;
+    width: 60%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 90px;
+}
+.body>#navbar>ul>li{
+    list-style-type: none;
+    margin-right: 20px;
+    
+
+}
+.body>#navbar>ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: border-bottom-color 0.4s ease-in-out;
+    border-bottom: 2px solid transparent;
+}
+.body>#navbar>ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 77px;
+}
+
+/* logo */
+.body>#logo>img{
+    width: 50px;
+    height: 50px;
+    margin-top: 14px;
+}
+
+
+/* right search and buttons */
+.body>#searchbar>input{
+    height: 40px;
+    width: 310px;
+    border-radius: 5px;
+    padding-left: 15px;
+    margin-left: 230px;
+    background-color: black;
+    border: 1px solid white;
+    
+}
+.body>#searchbar>input::placeholder{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+.body>#searchbar>a>img{
+    height: 30px;
+    width: 30px;
+    filter: hue-rotate(60deg);
+   
+}
+.body>#searchbar>a{
+    padding-left: 15px;
+    text-decoration: none;
+    
+   
+}
+/* .body>#searchbar>button{
+    padding-right: 5px;
+} */
+#plan{
+    margin-left: 30px;
+    height: 37px;
+    border-radius: 6px;
+    border: 0px;
+    font-weight: bold;
+    width: 120px;
+    background-color: blueviolet;
+    color: white;
+   
+    
+}
+#login{
+    margin-left: 30px;
+    width: 70px;
+    height: 37px;
+    border-radius: 5px;
+    border: 1px solid snow;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+#line{
+    margin-left: 20px;
+    font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 15px;
+ 
+  
+}
+/*  hover */
+
+#plan:hover{
+    background-color: rgb(94, 30, 155);
+}
+#login:hover{
+    transition: border-bottom-color 0.4s ease-in-out;
+    background-color: rgb(94, 30, 155);
+}
+.body>#navbar>ul>li>a:hover{
+    
+    color: rgb(182, 181, 181);
+    border-bottom-color: #ffffff;
+   
+}
+.whitetext{
+    color: white;
+    
+}
+.body>#searchbar>a>img:hover{
+    border-radius: 360px;
+    background-color: rgb(241, 212, 212);
+}
+#img{
+    height: 110vh;
+    background-image: url(./images/soll.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}

@@ -1,0 +1,126 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#nav{
+    height: 80px;
+    width: 100%;
+    /* background-color:#192133; */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+#nav>#navbar{
+    height: 80px;
+    width: 60%;
+    background-color:#192133;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+
+}
+#nav>#logo{
+    height: 80px;
+    width: 14%;
+    background-color: #192133;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#nav>#search{
+    height: 80px;
+    width: 33%;
+    background-color: #192133;
+    display: flex;
+    align-items: center;
+
+}
+#nav>#navbar>ul>li>a{
+    text-decoration: none;
+    margin-right: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(215, 209, 209);
+
+    
+}
+#nav>#navbar>ul>li{
+    list-style-type: none;
+    
+    
+
+}
+#nav>#navbar>ul{
+    display: flex;
+   /* justify-content: space-evenly; */
+    align-items: center;
+    height: 90px;
+   
+   
+    /* justify-content: center; */
+}
+#nav>#search>input{
+    height: 35px;
+    width: 210px;
+    background-color: #192133;
+    margin-right: 10px;
+    /* color: white; */
+}
+#nav>#search>button{
+    margin-right: 5px;
+    border-radius: 4px;
+    /* font-size: 0.8em; */
+    padding: 0px 12px;
+    background: #1f80e0;
+    height: 24px;
+    font-weight: 700;
+    border: 0px;
+    color: white;
+}
+#nav>#logo>a{
+    margin-right: 9px;
+   color: rgb(215, 209, 209);
+   font-family: "Roboto","HelveticaNeue-Light",sans-serif;
+
+}
+#nav>#search>#login{
+    background-color: #192133;
+}
+#nav>#search>input::placeholder{
+    color: white;
+}
+.whitetext{
+    color: white;
+    
+}
+#body{
+   background-image: url("./images/wp9715882-disney-hotstar-wallpapers.jpg");
+  height: 800px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 400px;
+  
+}
+#body>button{
+    padding: 0px 12px;
+    background: #1fe0d9;
+    height: 24px;
+    font-weight: 700;
+    border: 0px;
+    color: white;
+    border-radius: 7px;
+}
+#body>button:hover{
+    background-color: #0e46a7;
+}
+#nav>#searchbar>a>img:hover{
+    color: rgb(128, 144, 138);
+    
+}
+
