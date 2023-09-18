@@ -10,28 +10,11 @@ const Goodtea = () => {
         <p>LAST ORDERS for standard delivery pre-Easter will need to be placed by midday Tuesday 4th April</p>
       </main> */}
 
-      <section className={style.body}>
-        <div id={style.logo}>
-          <img src="https://www.abhyaz.com/Abhyaz.logo.jpg" alt="" />
-        </div>
-        <div id={style.navbar}>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Solution</a></li>
-            <li><a href="#">Career</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
-        <div id={style.searchbar}>
-          <input type="search" name="" id="" placeholder="Search" />
-          <a href=""><i className="fa-solid fa-user fa-xl"></i></a>
-          <a href=""><i className="fa-sharp fa-solid fa-cart-shopping fa-lg"></i></a>
-        </div>
-      </section>
+      
 
       {/* Job Openings Descriptions */}
       <section className={style.jobopening} id={style.appdev}>
+      
         <h1>Job Opening in Abhyaz</h1>
         <h2>Job Title: App Developer</h2>
         <p><strong>Location:</strong>  Electrical and Electronics, 133, MTAB Towers, Industrial Estate, Perungudi, Chennai, Tamil Nadu 600096</p>
