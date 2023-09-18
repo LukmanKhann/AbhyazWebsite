@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/AbhyazWebsite/static/css/main.bbd08a17.css",
-    "main.js": "/AbhyazWebsite/static/js/main.14dca4c0.js",
+    "main.css": "/AbhyazWebsite/static/css/main.12f1e95f.css",
+    "main.js": "/AbhyazWebsite/static/js/main.dad46879.js",
     "static/media/soll.jpg": "/AbhyazWebsite/static/media/soll.dbb9aa9cbb137d611073.jpg",
+    "static/media/pencil.jpg": "/AbhyazWebsite/static/media/pencil.27c7c018bef78906f1b8.jpg",
     "static/media/wp9053024-tesla-4k-wallpapers.jpg": "/AbhyazWebsite/static/media/wp9053024-tesla-4k-wallpapers.80ab7fe1729ede9d9928.jpg",
     "static/media/wp10539222-tesla-x-2023-wallpapers.jpg": "/AbhyazWebsite/static/media/wp10539222-tesla-x-2023-wallpapers.328217956d2423d34197.jpg",
     "static/media/wp9715882-disney-hotstar-wallpapers.jpg": "/AbhyazWebsite/static/media/wp9715882-disney-hotstar-wallpapers.54ee3e6a4f1b1fb26bb5.jpg",
     "static/media/wp11929444-tesla-x-2023-wallpapers.jpg": "/AbhyazWebsite/static/media/wp11929444-tesla-x-2023-wallpapers.c98eada4bad350d128de.jpg",
     "static/media/wp8889601-tesla-4k-wallpapers.jpg": "/AbhyazWebsite/static/media/wp8889601-tesla-4k-wallpapers.860e54bc320c369d3c2a.jpg",
+    "static/media/bluebg.png": "/AbhyazWebsite/static/media/bluebg.cff1476ca14e136e8f79.png",
     "index.html": "/AbhyazWebsite/index.html",
-    "main.bbd08a17.css.map": "/AbhyazWebsite/static/css/main.bbd08a17.css.map",
-    "main.14dca4c0.js.map": "/AbhyazWebsite/static/js/main.14dca4c0.js.map"
+    "main.12f1e95f.css.map": "/AbhyazWebsite/static/css/main.12f1e95f.css.map",
+    "main.dad46879.js.map": "/AbhyazWebsite/static/js/main.dad46879.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbd08a17.css",
-    "static/js/main.14dca4c0.js"
+    "static/css/main.12f1e95f.css",
+    "static/js/main.dad46879.js"
   ]
 }
